@@ -16,5 +16,5 @@ func main() {
 	_, remainder = divAndRemainder(100, -100)
 	fmt.Println(remainder)
 
-	divAndRemainer(-1, 20)
+	divAndRemainder(-1, 20)
 }

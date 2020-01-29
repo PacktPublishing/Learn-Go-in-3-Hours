@@ -8,4 +8,7 @@ func main() {
 	fmt.Println(bytes)
 	runes := []rune(uniHello)
 	fmt.Println(runes)
+	runes[1] = 'a'
+	fmt.Println(runes)
+	fmt.Println(uniHello)
 }
